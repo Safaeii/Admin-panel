@@ -1,13 +1,18 @@
+
 # 💰 AdminFlow – Personal Finance Dashboard
 
 A responsive personal finance dashboard built with React and Tailwind CSS to manage income, expenses, transactions, and financial reports.
+
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](./screenshots/dashboard.png)
+
+![Dashboard](./public/screenshots/dashboard.png)
 
 ### Transactions
-![Transactions](./screenshots/transactions.png)
+
+![Transactions](./public/screenshots/transactions.png)
+
 ## ✨ Features
 
 - 📊 Dashboard with financial summary cards
@@ -23,7 +28,6 @@ A responsive personal finance dashboard built with React and Tailwind CSS to man
 - 💾 Save transactions in Local Storage
 - 📱 Responsive user interface
 - 🧭 Client-side navigation with React Router
-
 ## 🛠️ Technologies
 
 - React
