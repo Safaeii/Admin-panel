@@ -1,16 +1,86 @@
-# React + Vite
+# 💰 AdminFlow – Personal Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive personal finance dashboard built with React and Tailwind CSS to manage income, expenses, transactions, and financial reports.
+## 📸 Screenshots
 
-Currently, two official plugins are available:
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Transactions
+![Transactions](./screenshots/transactions.png)
+## ✨ Features
 
-## React Compiler
+- 📊 Dashboard with financial summary cards
+- 💵 Track income and expenses
+- ➕ Add new transactions
+- ✏️ Edit existing transactions
+- 🗑️ Delete transactions
+- 🔍 Search and filter transactions
+- 🥧 Visualize expenses by category
+- 📈 Financial reports and charts
+- 📂 Manage categories, budgets, and accounts
+- 👤 Profile and settings pages
+- 💾 Save transactions in Local Storage
+- 📱 Responsive user interface
+- 🧭 Client-side navigation with React Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies
 
-## Expanding the Oxlint configuration
+- React
+- JavaScript
+- Vite
+- Tailwind CSS
+- React Router
+- Recharts
+- Lucide React
+- Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Safaeii/Admin-panel.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Admin-panel
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+## 📁 Project Structure
+
+```text
+src/
+├── assets/
+│   └── components/
+├── context/
+│   └── TransactionContext.jsx
+├── App.jsx
+├── Router.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🎯 Project Goal
+
+This project was developed to practice React fundamentals, component-based architecture, state management, routing, data visualization, and responsive UI development.
+
+## 👩‍💻 Developer
+
+**Safaeii**
+
+GitHub: [@Safaeii](https://github.com/Safaeii)
